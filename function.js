@@ -19,9 +19,9 @@ function showElementById(elementId) {
     element.classList.remove('hidden');
 }
 
-function next() {
-    hiddenElementById('header');
-    showElementById('success');
+function next(){
+    hiddenElementById('first-section');
+    showElementById('second-Section');
 }
 
 function nextStep() {
